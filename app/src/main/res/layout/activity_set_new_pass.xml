@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Password"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="New Password"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edNewPassword"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm password"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edConfirmPassword"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="20dp"
+        android:background="#9C27B0"
+        android:backgroundTint="@color/purple_200"
+        android:id="@+id/btSubmit"/>
+</LinearLayout>

@@ -68,8 +68,8 @@ public class HomeAdapter extends RecyclerView.Adapter {
 
         public SectionHolder(@NonNull View itemView) {
             super(itemView);
-            tvTitle = itemView.findViewById(R.id.tvMovie);
-            rvSection = itemView.findViewById(R.id.tvMovie);
+            tvTitle = itemView.findViewById(R.id.tvTitle);
+            rvSection = itemView.findViewById(R.id.rvSection);
         }
     }
 }
